@@ -1,8 +1,7 @@
 # video: https://youtu.be/LlF4ejAZ92g
 even_count=0
 odd_count=0
-list=[1,2,5,6,7,5]
-for number in list:
+for number in range(0,6):
     if number%2==0:
         print(number," is even")
         even_count=even_count+1
